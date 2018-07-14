@@ -19,6 +19,7 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 			<version>${gson.version}</version>
+			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
@@ -178,6 +179,86 @@
 				<exclusion>
 					<groupId>edu.ucar</groupId>
 					<artifactId>cdm</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>jcl-over-slf4j</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>jul-to-slf4j</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>edu.usc.ir</groupId>
+					<artifactId>sentiment-analysis-parser</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.uima</groupId>
+					<artifactId>uimafit-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.objenesis</groupId>
+					<artifactId>objenesis</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>edu.ucar</groupId>
+					<artifactId>netcdf4</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.codelibs</groupId>
+					<artifactId>jhighlight</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.ccil.cowan.tagsoup</groupId>
+					<artifactId>tagsoup</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.gagravarr</groupId>
+					<artifactId>vorbis-java-tika</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.commons</groupId>
+					<artifactId>commons-exec</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>de.l3s.boilerpipe</groupId>
+					<artifactId>boilerpipe</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.james</groupId>
+					<artifactId>apache-mime4j-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.james</groupId>
+					<artifactId>apache-mime4j-dom</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.healthmarketscience.jackcess</groupId>
+					<artifactId>jackcess</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.github.virtuald</groupId>
+					<artifactId>curvesapi</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>edu.ucar</groupId>
+					<artifactId>grib</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.tallison</groupId>
+					<artifactId>jmatio</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.googlecode.mp4parser</groupId>
+					<artifactId>isoparser</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.rometools</groupId>
+					<artifactId>rome</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.rometools</groupId>
+					<artifactId>rome-utils</artifactId>
 				</exclusion>
 			</exclusions>
 		</dependency>
