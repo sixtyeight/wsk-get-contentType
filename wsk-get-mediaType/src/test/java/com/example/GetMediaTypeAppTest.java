@@ -35,6 +35,11 @@ import com.google.gson.JsonObject;
 public class GetMediaTypeAppTest {
 
 	@Test
+	public void testRandom() throws IOException, TikaException {
+		test("file.bin", "application/octet-stream");
+	}
+	
+	@Test
 	public void testPdf() throws IOException, TikaException {
 		test("file.pdf", "application/pdf");
 	}
