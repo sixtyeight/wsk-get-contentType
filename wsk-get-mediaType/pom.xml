@@ -260,6 +260,62 @@
 					<groupId>com.rometools</groupId>
 					<artifactId>rome-utils</artifactId>
 				</exclusion>
+				<exclusion>
+					<groupId>org.apache.opennlp</groupId>
+					<artifactId>opennlp-tools</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.github.jai-imageio</groupId>
+					<artifactId>jai-imageio-core</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.pdfbox</groupId>
+					<artifactId>pdfbox-tools</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.pff</groupId>
+					<artifactId>java-libpst</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.pdfbox</groupId>
+					<artifactId>jbig2-imageio</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.drewnoakes</groupId>
+					<artifactId>metadata-extractor</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.github.junrar</groupId>
+					<artifactId>junrar</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.jdom</groupId>
+					<artifactId>jdom2</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.poi</groupId>
+					<artifactId>poi-scratchpad</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.pdfbox</groupId>
+					<artifactId>fontbox</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.pdfbox</groupId>
+					<artifactId>jempbox</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.github.openjson</groupId>
+					<artifactId>openjson</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>com.googlecode.json-simple</groupId>
+					<artifactId>json-simple</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.jsoup</groupId>
+					<artifactId>jsoup</artifactId>
+				</exclusion>
 			</exclusions>
 		</dependency>
 	</dependencies>
